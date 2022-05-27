@@ -19,7 +19,7 @@
 - Apache Maven;
 
 ## To start the project, you need:
- - [install the necessary tools](#Tools used:);
+ - install the necessary tools;
  - make a fork of the project on GitHub to your repository;
  - then, using the link, clone the project to your device;
  - then create a database using the scheme specified in the file;
