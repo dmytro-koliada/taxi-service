@@ -9,12 +9,15 @@
 ### Tools used:
  - IntelliJ IDEA Ultimate IDEA;
  - ApacheTomcat Tomcat (v9.0.50);
- - MySQL and MySQL Workbench MySQL.
+ - MySQL Workbench 8.0 CE.
 
 ### Technologies used:
 - MySQL;
 - JDBC;
 - HTML;
+- JSP
+- JSTL
+- Servlet
 - Maven Checkstyle Plugin;
 - Apache Maven;
 
@@ -22,7 +25,8 @@
  - install the necessary tools;
  - make a fork of the project on GitHub to your repository;
  - then, using the link, clone the project to your device;
- - then create a database using the scheme specified in the file;
+ - then create a database using the scheme specified in the file init_db.sql;
+ - add your credentials to ConnectionUtil Class to connect to this db
  - then run Tomcat with the created database;
  - then you can run the project in any browser by entering localhost: the port specified during creation (default 8080) and then "/" endpoint request;
  - when you go to the page, you will be prompted to enter your account by entering your login and password, or create a new one if you have not been registered yet;
